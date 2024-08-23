@@ -4,15 +4,15 @@ import { Chart } from "react-google-charts";
 
 export const data = [
   ["Task", "Hours per Day"],
-  ["Work", 11],
-  ["Eat", 2],
-  ["Commute", 2],
-  ["Watch TV", 2],
-  ["Sleep", 7],
+  ["Работа", 3],
+  ["Еда", 8],
+  ["Интернет", 10],
+  ["Компьтер", 6],
+  ["сон", 8],
 ];
 
 export const options = {
-  title: "My Daily Activities",
+  title: "Мои активности",
 };
 
 function App() {
